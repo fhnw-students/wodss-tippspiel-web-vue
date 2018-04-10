@@ -7,6 +7,7 @@ import Login from './views/Login.vue';
 import NotFound from './views/NotFound.vue';
 import Register from './views/Register.vue';
 import Reset from './views/ResetPassword.vue';
+import Profile from './views/Profile.vue';
 
 Vue.use(Router);
 
@@ -35,6 +36,14 @@ export const getRouter = (store: any) => {
         path: '/reset',
         name: 'reset',
         component: Reset,
+        meta: {
+          requiresAuth: false,
+        },
+      },
+      {
+        path: '/profile',
+        name: 'profile',
+        component: Profile,
         meta: {
           requiresAuth: false,
         },

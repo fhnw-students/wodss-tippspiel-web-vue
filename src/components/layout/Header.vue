@@ -17,6 +17,11 @@
               <a class="nav-link">{{ $t("games.title") }}</a>
             </router-link>
           </ul>
+           <ul class="navbar-nav mr-auto">
+            <router-link to="/profile" tag="li" class="nav-item" active-class="active">
+              <a class="nav-link">{{ $t("profile.title") }}</a>
+            </router-link>
+          </ul>
 
           <ul class="navbar-nav mt-2 mt-md-0">
             <NavLanguageSelect />

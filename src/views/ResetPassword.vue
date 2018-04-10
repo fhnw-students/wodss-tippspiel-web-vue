@@ -18,7 +18,7 @@
                 id="inputEmail"
                 name="email"
                 type="email"
-                :data-vv-as="$t('reset.email')"
+                :data-vv-as="$t('label.email')"
                 :class="{'form-control': true, 'is-invalid': errors.has('email') }"
                 :placeholder="$t('placeholder.email')"
                 v-validate="'required|email'"

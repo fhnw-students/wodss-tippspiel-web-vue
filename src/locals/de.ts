@@ -30,6 +30,13 @@ export default {
     title: 'Registrierung',
     submit: 'Erstellen',
   },
+  profile: {
+    title: 'Profil',
+    submitChanges: 'Profil speichern',
+    changeAvatar: 'Profilbild wechseln',
+    temp_username: 'KeHe',
+    temp_email: 'kevin.heftig@unco.ol',
+  },
   label: {
     username: 'Username',
     email: 'E-Mail',
