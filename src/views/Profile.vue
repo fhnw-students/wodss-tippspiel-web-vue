@@ -118,6 +118,9 @@ export default class Profile extends Vue {
     this.log.info('The form is valid?', isValid);
     if (isValid) {
       // TODO: Send profile action
+      this.$noty.success('message.profile_successful');
+    } else {
+      this.$noty.warning('message.profile_incomplete');
     }
   }
 

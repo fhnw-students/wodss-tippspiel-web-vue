@@ -53,5 +53,7 @@ export default {
     login_successful: 'Sie haben sich erfolgreich angemeldet',
     login_failed: 'Username oder Passwort ist falsch.',
     login_incomplete: 'Bitte geben Sie Username und Passwort an.',
+    profile_successful: 'Die Änderungen wurden übernommen',
+    profile_incomplete: 'Bitte ergänzen Sie die fehlenden Felder',
   },
 };
